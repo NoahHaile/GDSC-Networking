@@ -31,7 +31,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 if __name__ == '__main__':
 
-    application = ApplicationBuilder().token('6945415262:AAFMVFub4GePSOAjzHjRc3wlNnSMnefJInU').build()
+    application = ApplicationBuilder().token('').build()
 
     start_handler = CommandHandler('start', start)
     #process_handler = MessageHandler(filters.TEXT & (~filters.COMMAND), process_message)
